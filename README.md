@@ -34,6 +34,6 @@ python3 StylePatch_test.py
 ```
 
 ### Result
-
+![result](https://github.com/xie-1399/StylePatch/blob/main/pic/result.png)
 
 
