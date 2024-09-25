@@ -32,7 +32,13 @@ After the setup stages，you can run the code in these steps:
 ```
 python3 StylePatch_test.py
 ```
-
+4.If you want to generate adversarial samples by stylepatch, upload your images to StylePatch/input/000, and you could change the trainsize in stylepatch.py.
+This code will ensure the pixeles of output image are same as input image except the patch area because I've removed the normalized function. And you could control the pixel float accuracy variation in patch area.
+This code will also ensure the name of output image is same as input image.
+If you want to try the functions of the other three attack models or see the ASR（Attack Success Rate） of model, just merge the corresponding code of StylePatch_test.py into this stylepatch.py.
+```
+python3 stylepatch.py
+```
 ### Result
 ![result](https://github.com/xie-1399/StylePatch/blob/main/pic/result.png)
 
